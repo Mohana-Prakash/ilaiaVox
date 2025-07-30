@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.about-content-div {
+  width: 49%;
+}
+
+.about-content-div p {
+  line-height: 1.9;
+  text-align: justify;
+}
+
+.testimonial-container {
+  background-image: url("./images/testimonial-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Or contain, depending on your design */
+  background-position: center; /* Optional, for perfect alignment */
+}
+
+.glass-bg {
+  background: linear-gradient(#ededed60 1px, #0000 0px),
+    linear-gradient(90deg, #ededed60 1px, #0000 0px),
+    radial-gradient(
+      farthest-corner circle at 100% 0%,
+      hsl(192, 75%, 30%),
+      hsl(193, 20%, 72%) 100%
+    );
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
